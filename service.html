@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> BOOK YOUR SERVICE</title>
+        <link rel="stylesheet" href="css\service.css">
+    </head>
+    <body>
+        <nav class="nav">
+        <div class="logo">
+        <img src="img\velocity-motors.png" alt="Velocity Motors Logo">
+        </div>
+            <ul type="none">
+            <li><a href="car-showroom.html">Home</a></li>
+            <li><a href="newcar.html">New Cars</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="buynow.html">Buy Now</a></li>
+            <li><a href="">Contact US</a></li>
+            </ul>
+        </nav>
+        <div class="heading">
+            <h2> BOOK YOUR SERVICE</h2>
+            <p>
+                 Keep your luxury vehicle performing at its best.
+ Schedule a service with our certified technicians.
+            </p>
+        </div>
+        <div class="service-form">
+
+        <form>
+
+            <fieldset>
+
+                <legend>Customer Details</legend>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter your mobile number" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Vehicle Details</legend>
+
+                <label>Car Brand</label>
+
+                <select required>
+                    <option>Select Brand</option>
+                    <option>BMW</option>
+                    <option>Mercedes-Benz</option>
+                    <option>Audi</option>
+                    <option>Porsche</option>
+                    <option>Lamborghini</option>
+                </select>
+
+                <label>Car Model</label>
+
+                <select required>
+                    <option>Select Model</option>
+
+                    <optgroup label="BMW">
+                        <option>M4 Competition</option>
+                        <option>M5</option>
+                        <option>X5</option>
+                    </optgroup>
+
+                    <optgroup label="Mercedes-Benz">
+                        <option>C-Class</option>
+                        <option>E-Class</option>
+                    </optgroup>
+
+                    <optgroup label="Audi">
+                        <option>RS5</option>
+                        <option>A6</option>
+                    </optgroup>
+
+                    <optgroup label="Porsche">
+                        <option>911 Carrera</option>
+                        <option>Cayenne</option>
+                    </optgroup>
+
+                    <optgroup label="Lamborghini">
+                        <option>Huracán EVO</option>
+                        <option>Urus</option>
+                    </optgroup>
+
+                </select>
+
+                <label>Registration Number</label>
+                <input type="text" placeholder="TN 31 AB 1234" required>
+
+                <label>Manufacturing Year</label>
+                <input type="number" placeholder="2024">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Service Details</legend>
+
+                <label>Service Type</label>
+
+                <select required>
+                    <option>Select Service</option>
+                    <option>General Service</option>
+                    <option>Oil Change</option>
+                    <option>Engine Diagnostics</option>
+                    <option>Brake Inspection</option>
+                    <option>Wheel Alignment</option>
+                    <option>AC Service</option>
+                    <option>Battery Replacement</option>
+                    <option>Car Wash & Detailing</option>
+                </select>
+
+                <label>Preferred Date</label>
+                <input type="date" required>
+
+                <label>Preferred Time</label>
+                <input type="time" required>
+
+                <label>Additional Notes</label>
+
+                <textarea rows="5" placeholder="Describe your issue..."></textarea>
+
+            </fieldset>
+
+            <div class="check">
+                <input type="checkbox" required>
+                <span>I agree to the Terms & Conditions</span>
+            </div>
+
+            <div class="buttons">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Book Service">
+            </div>
+
+        </form>
+
+    </div>
+    </body>
+</html>

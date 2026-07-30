@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#0D0D0D;
+    background-image: url("C:/Users/navee/Downloads/wallpaperflare.com_wallpaper (3).jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo img{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:50%;
+    border: 2px solid #D4AF37;
+}
+.nav li{
+    display:inline-block;
+    margin:0 18px;
+}
+.nav ul{
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    justify-self: start;
+}
+.nav{
+    background: rgba(15,15,15,0.75);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212,175,55,0.3);
+    padding: 0 30px;
+    margin: 10px 0;
+    height:75px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    
+    color:aliceblue;
+    padding: 10px;
+}
+a:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    background-color: #B8860B;
+    border-radius: 25px;
+}
+.contact-form{
+    width:60%;
+    margin:40px auto;
+}
+
+fieldset{
+    border:2px solid #D4AF37;
+    border-radius:12px;
+    padding:25px;
+    background:rgba(0,0,0,0.75);
+}
+
+legend{
+    color:#D4AF37;
+    font-size:24px;
+    font-weight:bold;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    color:white;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#222;
+    color:white;
+    font-size:16px;
+}
+
+textarea{
+    resize:none;
+}
+
+.buttons{
+    text-align:center;
+    margin-top:25px;
+}
+
+.buttons input{
+    width:180px;
+    margin:10px;
+    background:#D4AF37;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.buttons input:hover{
+    background:#B8860B;
+    color:white;
+}
+
+.contact-info{
+    width:60%;
+    margin:40px auto;
+    padding:25px;
+    border:2px solid #D4AF37;
+    border-radius:12px;
+    background:rgba(0,0,0,0.75);
+    color:white;
+}
+
+.contact-info h2{
+    color:#D4AF37;
+    text-align:center;
+}

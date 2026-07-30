@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> BOOK YOUR SERVICE</title>
+        <link rel="stylesheet" href="css\service.css">
+    </head>
+    <body>
+        <nav class="nav">
+        <div class="logo">
+        <img src="img\velocity-motors.png" alt="Velocity Motors Logo">
+        </div>
+            <ul type="none">
+            <li><a href="car-showroom.html">Home</a></li>
+            <li><a href="newcar.html">New Cars</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="buynow.html">Buy Now</a></li>
+            <li><a href="">Contact US</a></li>
+            </ul>
+        </nav>
+        <div class="heading">
+            <h2> BOOK YOUR RIDE</h2>
+            <p>Reserve your dream car today and experience luxury,
+performance, and comfort like never before.
+            </p>
+        </div>
+        <div class="service-form">
+
+        <form>
+
+            <fieldset>
+
+                <legend>Customer Details</legend>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter your mobile number" required>
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Vehicle Details</legend>
+
+                <label>Car Brand</label>
+
+                <select required>
+                    <option>Select Brand</option>
+                    <option>BMW</option>
+                    <option>Mercedes-Benz</option>
+                    <option>Audi</option>
+                    <option>Porsche</option>
+                    <option>Lamborghini</option>
+                </select>
+
+                <label>Car Model</label>
+
+                <select required>
+                    <option>Select Model</option>
+
+                    <optgroup label="BMW">
+                        <option>M4 Competition</option>
+                        <option>M5</option>
+                        <option>X5</option>
+                    </optgroup>
+
+                    <optgroup label="Mercedes-Benz">
+                        <option>C-Class</option>
+                        <option>E-Class</option>
+                    </optgroup>
+
+                    <optgroup label="Audi">
+                        <option>RS5</option>
+                        <option>A6</option>
+                    </optgroup>
+
+                    <optgroup label="Porsche">
+                        <option>911 Carrera</option>
+                        <option>Cayenne</option>
+                    </optgroup>
+
+                    <optgroup label="Lamborghini">
+                        <option>Huracán EVO</option>
+                        <option>Urus</option>
+                    </optgroup>
+
+                </select>
+
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Purchase Details</legend>
+
+                <label for="payment">Payment Method</label>
+                <select id="payment" name="payment" required>
+                    <option value="">Select Payment Method</option>
+                    <option>Cash</option>
+                    <option>Bank Loan</option>
+                    <option>Finance / EMI</option>
+                    <option>Online Payment</option>
+                </select>
+
+                <label for="finance">Finance Required</label>
+                <select id="finance" name="finance" required>
+                    <option value="">Select Option</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+
+                <label for="delivery">Preferred Delivery Date</label>
+                <input type="date" id="delivery" name="delivery">
+
+                <label for="showroom">Preferred Showroom</label>
+                <select id="showroom" name="showroom" required>
+                    <option value="">Select Showroom</option>
+                    <option>Chennai</option>
+                    <option>Coimbatore</option>
+                    <option>Madurai</option>
+                    <option>Trichy</option>
+                    <option>Salem</option>
+                </select>
+
+                <label for="requirements">Additional Requirements</label>
+                <textarea id="requirements" name="requirements"
+                    placeholder="Mention preferred color, accessories, exchange vehicle, or any special requests..."
+                    rows="5"></textarea>
+
+            </fieldset>
+
+            <div class="check">
+                <input type="checkbox" required>
+                <span>I agree to the Terms & Conditions</span>
+            </div>
+
+            <div class="buttons">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Book Service">
+            </div>
+
+        </form>
+
+    </div>
+    </body>
+</html>

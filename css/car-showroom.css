@@ -80,6 +80,48 @@ a:hover{
     border:2px solid #D4AF37;
     color:#D4AF37;
 }
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 20px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-buttons button {
+        width: 220px;
+    }
+
+    .hero {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 .btn2:hover{
     background:#D4AF37;
